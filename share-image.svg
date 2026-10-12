@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#0A1628"/>
+  <rect width="1920" height="10" fill="#C9A227"/>
+  <rect y="1070" width="1920" height="10" fill="#C9A227"/>
+
+  <text x="80" y="58" fill="#C9A227" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="4">THIS MCP</text>
+  <text x="80" y="118" fill="#F4E4A6" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="48" font-weight="700">Semantic Forge</text>
+  <text x="80" y="168" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="26">Complete semantic model optimization - analyze everything, one Word plan, you approve, it does the work.</text>
+
+  <rect x="80" y="200" width="1760" height="3" fill="#C9A227"/>
+
+  <rect x="80" y="230" width="860" height="300" rx="8" fill="#12243C"/>
+  <text x="110" y="280" fill="#C9A227" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">BUSINESS PROBLEM</text>
+  <text x="110" y="330" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="21">Cleaning a model by hand (or in long AI chats) burns tokens</text>
+  <text x="110" y="368" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="21">and hours. Unused tables, columns, measures, and</text>
+  <text x="110" y="406" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="21">relationships hide until QA or a bot finds them. There is no</text>
+  <text x="110" y="444" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="21">single pack you can review before anyone touches the model.</text>
+  <text x="110" y="500" fill="#F4E4A6" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Manual path: 2 to 4 hours and a large Cursor bill per model.</text>
+
+  <rect x="980" y="230" width="860" height="300" rx="8" fill="#12243C"/>
+  <text x="1010" y="280" fill="#C9A227" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">WHAT THIS MCP SOLVES</text>
+  <text x="1010" y="330" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="21">Anyone asks it to analyze the model. It reads the files and</text>
+  <text x="1010" y="368" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="21">writes a complete Word document of every optimization.</text>
+  <text x="1010" y="406" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="21">You review, add suggestions if you want, then it asks:</text>
+  <text x="1010" y="454" fill="#F4E4A6" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="22">Shall we proceed with the optimization?</text>
+  <text x="1010" y="500" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="21">Yes = it does the full plan. No = model unchanged.</text>
+
+  <rect x="80" y="560" width="560" height="230" rx="8" fill="#152A45"/>
+  <text x="110" y="610" fill="#C9A227" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">IT DETECTS</text>
+  <text x="110" y="658" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Unused / unusual tables</text>
+  <text x="110" y="696" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Unused columns and measures</text>
+  <text x="110" y="734" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Unused relationships</text>
+  <text x="110" y="772" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Broken report wiring and more</text>
+
+  <rect x="680" y="560" width="560" height="230" rx="8" fill="#152A45"/>
+  <text x="710" y="610" fill="#C9A227" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">TIME AND TOKENS YOU SAVE</text>
+  <text x="710" y="670" fill="#F4E4A6" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">About 2 to 4 hours</text>
+  <text x="710" y="718" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">per model vs hunting objects by hand</text>
+  <text x="710" y="760" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Analyze + review the Word pack: about 10 min</text>
+
+  <rect x="1280" y="560" width="560" height="230" rx="8" fill="#152A45"/>
+  <text x="1310" y="610" fill="#C9A227" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">YOU STAY IN CONTROL</text>
+  <text x="1310" y="658" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Read the Word plan first.</text>
+  <text x="1310" y="696" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Change the list if you need to.</text>
+  <text x="1310" y="734" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Say yes only when the list is right.</text>
+  <text x="1310" y="772" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Then it applies everything carefully.</text>
+
+  <rect x="80" y="820" width="1760" height="220" rx="8" fill="#0F1E33" stroke="#C9A227" stroke-width="1.5"/>
+  <text x="110" y="875" fill="#C9A227" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">SETUP  (about 5 minutes, once)</text>
+  <text x="110" y="930" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="24">Clone the repo. In Cursor say:  Setup Semantic Forge</text>
+  <text x="110" y="980" fill="#E8EEF5" font-family="Calibri, Segoe UI, Arial, sans-serif" font-size="20">Cursor does the rest. If it needs a folder path or a login, it will ask. You answer. That is all.</text>
+</svg>

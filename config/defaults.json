@@ -1,7 +1,7 @@
 {
   "product": "semantic-forge",
   "version": "1.0.0",
-  "workspace_root": ".",
+  "workspace_root": "",
   "lakehouse": {
     "database": "glofox_lakehouse",
     "schema": "gold_layer",
