@@ -12,8 +12,8 @@ Cursor **MCP** for Power BI: analyze a `.SemanticModel` + `.Report`, write a **W
 
 Share files at repo root: `DOCUMENTATION.html`, `share-image.svg`, this `README.md`.
 
-| Team guide (browser) | https://glofoxinc.github.io/semantic_forge/DOCUMENTATION.html |
-| Repo | https://github.com/glofoxinc/semantic_forge |
+- **Team guide (browser):** https://glofoxinc.github.io/semantic_forge/DOCUMENTATION.html  
+- **Repo:** https://github.com/glofoxinc/semantic_forge
 
 ## Quick start
 
@@ -22,4 +22,4 @@ Share files at repo root: `DOCUMENTATION.html`, `share-image.svg`, this `README.
 3. Wire MCP: `forge/config/cursor-mcp.example.json` → point at `<CLONE_PATH>/forge/mcp/server.py`.
 4. In chat: **Setup Semantic Forge**, then **Analyse this model and suggest optimizations**.
 
-Pair with **[Semantic Scout](https://github.com/glofoxinc/semantic-scout)** before you raise a PR.
+Pair with **[Semantic Scout](https://github.com/glofoxinc/semantic_scout)** before you raise a PR.
