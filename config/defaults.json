@@ -1,0 +1,20 @@
+{
+  "product": "semantic-forge",
+  "version": "1.0.0",
+  "workspace_root": ".",
+  "lakehouse": {
+    "database": "glofox_lakehouse",
+    "schema": "gold_layer",
+    "prefixes": {
+      "fact": ["flt_", "fct_"],
+      "dimension": ["dim_"],
+      "aggregate": ["agg_", "mv_"]
+    }
+  },
+  "classification": {
+    "agg_name_patterns": ["^agg_", "^mv_", "_rollup$", "_summary$"],
+    "dim_name_patterns": ["^dim_", "DATE TABLE", "TIME TABLE", "Locations", "Users", "Tax Flag"],
+    "fact_name_patterns": ["^flt_", "^fct_", "Visits", "Bookings", "Invoices", "Sales Transactions"]
+  },
+  "corp_param": "corp_id"
+}

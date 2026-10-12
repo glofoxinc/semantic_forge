@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "description": "Seed agg → lakehouse flat mappings (extend per dashboard onboard)",
+  "mappings": [
+    {
+      "agg_table": "agg_visit_analysis_details",
+      "flat_table": "gold_layer.flt_visits",
+      "date_column": "local_visited_at_date",
+      "notes": "Visit Analysis charts; KPIs use Visits + All Measures"
+    },
+    {
+      "agg_table": "agg_revenue_analysis_kpi",
+      "flat_table": "gold_layer.flt_sale_with_deletes",
+      "date_column": "local_created_at_date",
+      "notes": "Revenue KPI cards"
+    },
+    {
+      "agg_table": "agg_lead_conversions_v2",
+      "flat_table": "gold_layer.flt_lead_conversions",
+      "date_column": "local_lead_created_at",
+      "notes": "Lead Conversion page"
+    },
+    {
+      "agg_table": "agg_daily_members",
+      "flat_table": "gold_layer.flt_daily_members",
+      "date_column": "event_date",
+      "notes": "SOB / membership snapshots"
+    },
+    {
+      "agg_table": "dim_tasks",
+      "flat_table": "gold_layer.dim_tasks",
+      "date_column": "local_created_at",
+      "notes": "Tasks page - already flat dim"
+    },
+    {
+      "agg_table": "flt_membership_signups",
+      "flat_table": "gold_layer.flt_membership_signups",
+      "date_column": "local_created_at",
+      "model_table_hint": "Membership Sign-Ups",
+      "notes": "Report uses lakehouse entity name; model table is Membership Sign-Ups"
+    },
+    {
+      "agg_table": "item",
+      "flat_table": null,
+      "date_column": null,
+      "notes": "Stale conditional-format entity on Visit Analysis charts only"
+    }
+  ]
+}

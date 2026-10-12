@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "semantic-forge": {
+      "command": "python",
+      "args": [
+        "./mcp/server.py"
+      ],
+      "env": {}
+    }
+  }
+}

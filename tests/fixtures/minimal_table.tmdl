@@ -1,0 +1,5 @@
+table Sales
+	column Amount
+	measure 'Total Sales' = SUM(Sales[Amount])
+	partition Sales = m
+		let Source = Sql.Database("x", "y") in Source

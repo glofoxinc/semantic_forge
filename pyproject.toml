@@ -1,0 +1,9 @@
+[project]
+name = "semantic-forge"
+version = "1.0.0"
+description = "Semantic Forge — PBIP semantic model optimization, wiring, and migration (MCP + CLI)"
+requires-python = ">=3.11"
+dependencies = ["mcp>=2.0.0"]
+
+[project.scripts]
+semantic-forge = "tools.run_agent:main"

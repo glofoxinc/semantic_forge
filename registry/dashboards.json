@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "dashboards": [
+    {
+      "slug": "executive_dashboard",
+      "display_name": "Executive dashboard - Beta",
+      "corp_id": "corp_Jazzercise",
+      "manifest": "dashboards/executive_dashboard/manifest.json"
+    }
+  ]
+}
