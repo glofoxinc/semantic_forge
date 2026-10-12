@@ -12,6 +12,9 @@ Cursor **MCP** for Power BI: analyze a `.SemanticModel` + `.Report`, write a **W
 
 Share files at repo root: `DOCUMENTATION.html`, `share-image.svg`, this `README.md`.
 
+| Team guide (browser) | https://glofoxinc.github.io/semantic_forge/DOCUMENTATION.html |
+| Repo | https://github.com/glofoxinc/semantic_forge |
+
 ## Quick start
 
 1. Clone and open the repo in **Cursor**.
