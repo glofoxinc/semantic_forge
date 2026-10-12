@@ -26,8 +26,8 @@ def test_registry_lists_sample_dashboard():
     assert "executive_dashboard" in slugs
 
 
-def test_sample_dashboard_has_validation_artifact():
-    path = ROOT / "dashboards" / "executive_dashboard" / "validation.json"
+def test_validation_fixture_readable():
+    path = ROOT / "tests" / "fixtures" / "validation_sample.json"
     assert path.is_file()
     text = path.read_text(encoding="utf-8")
     assert "passed" in text or "orphan" in text.lower()

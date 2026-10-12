@@ -1,16 +1,12 @@
 name: semantic-forge-ci
 on:
   push:
-    paths:
-      - "projects/stable/semantic-forge/**"
   pull_request:
-    paths:
-      - "projects/stable/semantic-forge/**"
   workflow_dispatch:
 
 defaults:
   run:
-    working-directory: projects/stable/semantic-forge
+    working-directory: forge
 
 jobs:
   test:

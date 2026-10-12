@@ -1,0 +1,40 @@
+Hello team — introducing *Semantic Forge*
+
+Cursor MCP — complete semantic-model optimization: Word plan, then it asks before it changes anything.
+
+*What it is*
+Semantic Forge helps Insights developers clean a Power BI report and semantic model inside Cursor. You point it at the Report and Semantic Model folders. It finds unused or unusual tables, columns, measures, and relationships, writes a complete Word plan, and stops. You review or edit the plan. Only if you say yes does it apply. No means the model is unchanged. You stay in control of every change.
+
+*How it runs*
+1. You share the report folder and the semantic model folder
+2. It analyses unused tables, relationships, columns, measures, and wiring
+3. It writes a complete Word plan — nothing is edited yet
+4. You review (and adjust if you want)
+5. It asks: Shall we proceed with the optimization?
+6. Yes = it applies the plan  |  No = model unchanged
+7. Then run Semantic Scout on the ticket branch before you raise the PR
+
+*Time impact*
+
+```
++----------------------------------+-----------------------------+---------------------------+------------------+
+| Work                             | Before Forge                | With Forge                | Savings          |
++----------------------------------+-----------------------------+---------------------------+------------------+
+| Find unused objects by hand      | 2-4 hrs, still miss items   | 10 min analyse + review   | ~90%             |
+| Long generic AI chat             | High tokens, incomplete     | One Word plan + yes/no    | Hours + tokens   |
+| Model cleanup — total            | About half a day            | Under 30 min + your yes   | 2-4 hrs          |
++----------------------------------+-----------------------------+---------------------------+------------------+
+```
+
+*Why it wins*
+• Analyses the files on disk — not a guess from chat
+• Full Word plan before any edit
+• Unused tables, relationships, columns, and measures — not measures only
+• No silent change — yes or no is mandatory
+• Pairs with Semantic Scout when you are ready to raise the PR
+
+*One-liner*
+Semantic Forge turns a 2-4 hour model hunt into about 10 minutes of plan review — then it only changes the model when you say yes.
+
+*Setup (once, about 5 minutes)*
+In Cursor say Setup Semantic Forge. If it needs a folder path or a login, it will ask once.

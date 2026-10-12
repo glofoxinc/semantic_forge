@@ -2,23 +2,21 @@
 
 Cursor **MCP** for Power BI: analyze a `.SemanticModel` + `.Report`, write a **Word optimization plan**, then apply changes only after you say **yes**.
 
-| Item | Location |
+## Repo layout (3 folders)
+
+| Path | Contents |
 |------|----------|
-| Team guide (browser) | [DOCUMENTATION.html](./DOCUMENTATION.html) |
-| Share image | [share-image.svg](./share-image.svg) |
-| Cursor skill | [SKILL.md](./SKILL.md) (also `.cursor/skills/semantic-forge/` when you clone) |
-| MCP server | `mcp/server.py` |
-| Setup scripts | `scripts/setup.ps1`, `scripts/install.ps1` |
-| Example MCP config | `config/cursor-mcp.example.json` |
-| Tests | `pytest` in `tests/` |
+| **`docs/`** | `SKILL.md` (Cursor skill), `SLACK-ANNOUNCE.txt` (team paste template) |
+| **`forge/`** | MCP server, Python `lib/`, CLI `tools/`, `config/`, `scripts/`, tests |
+| **`.github/`** | CI |
+
+Share files at repo root: `DOCUMENTATION.html`, `share-image.svg`, this `README.md`.
 
 ## Quick start
 
-1. Clone this repo and open the folder in **Cursor**.
-2. In chat: **Setup Semantic Forge** (or run `scripts/setup.ps1` once).
-3. Point Cursor MCP at `mcp/server.py` using `config/cursor-mcp.example.json` (replace `<CLONE_PATH>` with your clone path).
-4. **Analyze this model and suggest optimizations** — review the Word plan — answer **Shall we proceed with optimization?**
-
-No secrets are required for the stdio MCP. Do not commit `.env`.
+1. Clone and open the repo in **Cursor**.
+2. Run `forge/scripts/setup.ps1` once (installs deps + copies `docs/SKILL.md` into your user skills folder).
+3. Wire MCP: `forge/config/cursor-mcp.example.json` → point at `<CLONE_PATH>/forge/mcp/server.py`.
+4. In chat: **Setup Semantic Forge**, then **Analyse this model and suggest optimizations**.
 
 Pair with **[Semantic Scout](https://github.com/glofoxinc/semantic-scout)** before you raise a PR.

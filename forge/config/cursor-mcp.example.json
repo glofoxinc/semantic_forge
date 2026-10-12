@@ -3,7 +3,7 @@
     "semantic-forge": {
       "command": "python",
       "args": [
-        "<CLONE_PATH>/mcp/server.py"
+        "<CLONE_PATH>/forge/mcp/server.py"
       ],
       "env": {}
     }

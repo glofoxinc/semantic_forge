@@ -1,6 +1,7 @@
 .env
-.pytest_cache/
-__pycache__/
+forge/.pytest_cache/
+forge/__pycache__/
+**/__pycache__/
 *.pyc
-dashboards/
+forge/dashboards/
 *.docx

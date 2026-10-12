@@ -1,4 +1,4 @@
-# Semantic Forge v1.0.0 — production verify (run from repo root via scripts/)
+# Semantic Forge v1.0.0 — production verify (run via forge/scripts/setup.ps1)
 $ErrorActionPreference = "Stop"
 Set-Location (Join-Path $PSScriptRoot "..")
 
