@@ -37,4 +37,4 @@ Semantic Forge helps Insights developers clean a Power BI report and semantic mo
 Semantic Forge turns a 2-4 hour model hunt into about 10 minutes of plan review — then it only changes the model when you say yes.
 
 *Setup (once, about 5 minutes)*
-In Cursor say Setup Semantic Forge. If it needs a folder path or a login, it will ask once.
+In Cursor say Setup Semantic Forge. If it needs a folder path or a login, it will ask once. That is all.
